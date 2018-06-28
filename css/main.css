@@ -1,0 +1,29 @@
+html {
+	font-family: monospace;
+	color: #FF0064;
+	background: #000016;
+}
+a.highlight {
+	color: #000016;
+	background: #FF0064;
+}
+ul.post-list {
+	padding: 0px;
+}
+ul.post-list li {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+ul.post-list li span.post-meta,
+ul.post-list h2 
+{
+	font-size: 1em;
+	display: inline;
+}
+ul.post-list li span.post-meta {
+	padding-right: 10px;
+}
+footer p {
+	text-align: left;
+}
