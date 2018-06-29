@@ -9,36 +9,53 @@ a.highlight {
 }
 ul.post-list {
 	margin: auto;
-	width: 800px;
+	width: 804px;
 	padding: 0px;
 }
 ul.post-list li {
 	padding: 0px;
 	margin: 0px;
 	list-style: none;
-	width: 700px;
+	width: 704px;
 }
 ul.post-list li p.post-meta,
 ul.post-list li h2.post-title 
 {
-	font-size: 1em;
+	font-size: 14px;
 	display: inline-block;
 }
 ul.post-list li p.post-meta {
 	height: auto;
-	width: 128px;
+	width: 104px;
 }
 ul.post-list li div.post-content {
 	width: 600px;
-	margin-left: 128px;
+	margin-left: 104px;
 }
 footer p {
 	text-align: center;
 }
 a {
 	color: #FF0064;
+	text-decoration: none;
 }
 pre.logo {
 	width: 164px;
 	margin: auto;
+}
+.post-list li:first-child .post-title, 
+.post-list li:first-child .post-meta
+{
+	border: none;
+	padding: 8px 0px;
+}
+.post-content {
+	padding: 0px 0px 16px 0px;
+}
+.post-title {
+	border-bottom: 1px solid #FF0064;
+}
+.post-title, .post-meta {
+	margin: 0px;
+	padding: 4px 0px 0px 0px;
 }
