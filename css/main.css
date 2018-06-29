@@ -8,22 +8,37 @@ a.highlight {
 	background: #FF0064;
 }
 ul.post-list {
+	margin: auto;
+	width: 800px;
 	padding: 0px;
 }
 ul.post-list li {
 	padding: 0px;
 	margin: 0px;
 	list-style: none;
+	width: 700px;
 }
-ul.post-list li span.post-meta,
-ul.post-list h2 
+ul.post-list li p.post-meta,
+ul.post-list li h2.post-title 
 {
 	font-size: 1em;
-	display: inline;
+	display: inline-block;
 }
-ul.post-list li span.post-meta {
-	padding-right: 10px;
+ul.post-list li p.post-meta {
+	height: auto;
+	width: 128px;
+}
+ul.post-list li div.post-content {
+	width: 600px;
+	margin-left: 128px;
 }
 footer p {
-	text-align: left;
+	text-align: center;
+}
+a {
+	color: #FF0064;
+}
+pre.logo {
+	width: 164px;
+	margin: auto;
 }

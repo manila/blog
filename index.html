@@ -5,16 +5,13 @@ layout: default
 <div class="home">
 
   <ul class="post-list">
-    {% for post in site.posts %}
+      {% for post in site.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %d %H:%M " }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+	<p class="post-meta">{{ post.date | date: "%b %d %H:%M" }}</p><h2 class="post-title"><a href="#">{{ post.title }}</a></h2>
+	{% if post == site.posts.first %}
+	   <div class="post-content">{{ post.content }}</div>
+	{% endif %}
       </li>
-    {% endfor %}
+      {% endfor %}
   </ul>
-
-
 </div>
