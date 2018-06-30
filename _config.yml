@@ -9,7 +9,7 @@
 title: hi i'm manila
 email: hi@manila.me
 description: > # this means to ignore newlines until "baseurl:"
-	blog by manila
+ blog by manila
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.manila.me" # the base hostname & protocol for your site
 
