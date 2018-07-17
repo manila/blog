@@ -36,7 +36,7 @@ See how each individual bit corresponds to a place on the board after we’ve wr
 
 Let implement this in C
 
-Now since there isn’t a datatype in c that is 9 bits long we’ll need to use a full blown integer which is 16 bits long ¯\\\_(ツ)\_/¯
+Now since there isn’t a datatype in C that is 9 bits long we’ll need to use a full blown integer which is 16 bits long ¯\\\_(ツ)\_/¯
 
 Two boards one for each player (X's and O's)\:
 
@@ -45,11 +45,9 @@ int bitboard[2] = {0, 0};
 
 ```
 
-We use binary operators to manipulate integers represented in base 2
-
 Why use bitboards to represent the game state? They are fast and relatively easy to manipulate.
 
-For example to check a horizontal win for each player board we simply shift the bitboard over a few places and run an and (&) operation. If the value is greater than 1 we have a win\:
+For example to check a horizontal win for each player board we shift (>>) the bitboard over a few places and run an and (&) operation. If the value is greater than 1 we have a win\:
 
 ```c
 int check_win_horizontal(int bitboard)
