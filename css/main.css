@@ -9,6 +9,9 @@ body {
 	margin: 0px;
 	padding: 0px;
 }
+pre {
+	white-space: pre-wrap;
+}
 a.highlight {
 	color: #000016;
 	background: #FF0064;
@@ -52,13 +55,11 @@ a {
 	color: #FF0064;
 }
 .logo {
-	width: 164px;
+	width: 192px;
 	margin: auto;
 }
 .post-title {	
 	color: #FF0064;
-	text-decoration: none;
-	border-bottom: 1px solid #FF0064;
 }
 .post-list .post:first-child .post-date
 .post-list .post:first-child .post-title, 
