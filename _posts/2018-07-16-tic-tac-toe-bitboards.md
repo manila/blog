@@ -73,9 +73,9 @@ AND 00**1**110000 (bitboard right-shifted 2 places)
 
 If we represent the bits from above as a board by wrapping after 3 characters
 
-11**1**&nbsp; &nbsp;01**1**&nbsp; &nbsp;00**1**&nbsp; &nbsp;00**1**
-000 & 100 & 110 = 000
-000&nbsp; &nbsp;000&nbsp; &nbsp;000&nbsp; &nbsp;000
+11**1**&nbsp; &nbsp;01**1**&nbsp; &nbsp;00**1**&nbsp; &nbsp;00**1**  
+000 & 100 & 110 = 000  
+000&nbsp; &nbsp;000&nbsp; &nbsp;000&nbsp; &nbsp;000  
 
 Simply put if there is overlap in placement after shifting the board a couple times places we know there were three in a row.
 
