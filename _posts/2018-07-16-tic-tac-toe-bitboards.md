@@ -57,18 +57,18 @@ int check_win_horizontal(int bitboard)
 
 ```
 
-The function above checks for horizontal wins, here’s how\:
+The function above checks for horizontal wins, here’s how:
 
-&nbsp;&nbsp;&nbsp; **111**000000 RIGHT-SHIFT 1 place(s)
+&nbsp;&nbsp;&nbsp; **111**000000 RIGHT-SHIFT 1 place(s)  
 &nbsp;&nbsp;= 0**111**00000
 
-&nbsp;&nbsp;&nbsp; **111**000000 RIGHT-SHIFT 2 place(s)
+&nbsp;&nbsp;&nbsp; **111**000000 RIGHT-SHIFT 2 place(s)  
 &nbsp;&nbsp;= 00**111**0000
 
-&nbsp;&nbsp;&nbsp; 11**1**000000 (original Bitboard)
-&nbsp;&nbsp;&nbsp; 01**1**100000 (bitboard right-shifted 1 place)
-AND 00**1**110000 (bitboard right-shifted 2 places)
-&nbsp; = 00**1**000000 (1 bit set makes this a “true” value)
+&nbsp;&nbsp;&nbsp; 11**1**000000 (original Bitboard)  
+&nbsp;&nbsp;&nbsp; 01**1**100000 (bitboard right-shifted 1 place)  
+AND 00**1**110000 (bitboard right-shifted 2 places)  
+&nbsp; = 00**1**000000 (1 bit set makes this a “true” value)  
 
 
 If we represent the bits from above as a board by wrapping after 3 characters
