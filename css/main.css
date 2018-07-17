@@ -50,20 +50,23 @@ footer p {
 }
 a {
 	color: #FF0064;
-	text-decoration: none;
 }
 .logo {
 	width: 164px;
 	margin: auto;
 }
-.post-list .post:first-child .post-title, 
+.post-title {	
+	color: #FF0064;
+	text-decoration: none;
+	border-bottom: 1px solid #FF0064;
+}
 .post-list .post:first-child .post-date
+.post-list .post:first-child .post-title, 
+.post-list .post:first-child .post-title a 
 {
 	border: none;
 	padding: 8px 0px;
-}
-.post-title {
-	border-bottom: 1px solid #FF0064;
+	text-decoration: none;
 }
 .post-title, .post-date {
 	margin: 0px;
@@ -93,4 +96,7 @@ a {
 		margin: 0px 4px;
 		text-align: left;
 	}
+}
+.nf, .n {
+	font-weight: bold;
 }
