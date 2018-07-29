@@ -4,6 +4,7 @@ html {
 	background: #000016;
 	margin: 0px;
 	padding: 0px;
+	font-size: 14px;
 }
 body {
 	margin: 0px;
@@ -18,17 +19,17 @@ a.highlight {
 }
 .post-list {
 	margin: auto;
-	width: 100%;
-	max-width: 768px;
-	min-width: 384px;
+	width: inherit;
 	padding: 0px;
 }
 
 .post {
+	width: 100%;
+	max-width: 768px;
+	min-width: 384px;
 	padding: 0px;
-	margin: 0px;
+	margin: auto;
 	list-style: none;
-	width: inherit;
 }
 .post-date,
 .post-title 
@@ -60,10 +61,11 @@ a {
 }
 .post-title {	
 	color: #FF0064;
+	font-weight: bold;
 }
-.post-list .post:first-child .post-date
-.post-list .post:first-child .post-title, 
-.post-list .post:first-child .post-title a 
+.post:first-child .post-date
+.post:first-child .post-title, 
+.post:first-child .post-title a
 {
 	border: none;
 	padding: 8px 0px;

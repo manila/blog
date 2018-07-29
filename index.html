@@ -2,16 +2,13 @@
 layout: default
 ---
 
-<div class="content">
-
-  <ul class="post-list">
-      {% for post in site.posts %}
-      <li class="post">
-	<p class="post-date">{{ post.date | date: "%b %d %H:%M" }}</p><h2 class="post-title"><a href="#">{{ post.title }}</a></h2>
-	{% if post == site.posts.first %}
-	   <div class="post-content">{{ post.content }}</div>
-	{% endif %}
-      </li>
-      {% endfor %}
-  </ul>
-</div>
+<ul class="post-list">
+    {% for post in site.posts %}
+    <li class="post">
+    	<p class="post-date">{{ post.date | date: "%b %d %H:%M" }}</p><h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+  	{% if post == site.posts.first %}
+ 	 <div class="post-content">{{ post.content }}</div>
+  	{% endif %}
+    </li>
+    {% endfor %}
+</ul>
