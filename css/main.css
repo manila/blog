@@ -82,10 +82,6 @@ a {
 	.post-content {
 		margin: 0px 16px;
 	}
-	.post-list .post:first-child .post-title {
-		display: block;
-		text-align: center;
-	}
 }
 @media (max-width: 384px) {
 	.post-content {
@@ -95,7 +91,7 @@ a {
 		margin: 0px 4px;
 	}
 	.post-date {
-		width: 100%;
+		width: 100px;
 		margin: 0px 4px;
 		text-align: left;
 	}
