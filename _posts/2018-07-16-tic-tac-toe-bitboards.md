@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tic-Tac-Toe with Bitboards"
-date: 2018-07-16 08:42:00 -0600
+date: 2018-07-16 20:42:00
 ---
 
 A Tic-Tac-Toe game using bitboards to store player state.
