@@ -1,0 +1,16 @@
+:target {
+	color: #000;
+	background: #ffffff;
+}
+:target a {
+	color: #0000ff;
+}
+:target a.highlight {
+	background: none;
+}
+:target a:visited {
+	color: purple;
+}
+:target h2.post-title {
+	color: #000000;
+}
