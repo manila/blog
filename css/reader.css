@@ -14,3 +14,9 @@
 :target h2.post-title {
 	color: #000000;
 }
+.disabled, :target .enabled {
+	display: none;
+}
+:target .disabled, .enabled {
+	display: inline;
+}
