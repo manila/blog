@@ -56,7 +56,7 @@ Here is the markup for the toggle link:
 </html>
 ```
 
-Starting in the CSS the body is styled with white (#FFF) text on a black (#00) background. Then there is the first :target selector that swaps the colors so that it's not black text on a white background.  This CSS becomes "active" when the URL has #reader appended to it. Because the body element has the id of reader then it becomes targeted and thus selected with the :target psuedo-class.
+Starting in the CSS the body is styled with white (#FFF) text on a black (#00) background. Then there is the first :target selector that swaps the colors so that it's not black text on a white background.  This CSS becomes "active" when the URL has #reader appended to it. Because the body element has the id of reader it then becomes targeted and thus selected with the :target psuedo-class.
 
 The .disabled and .enabled CSS classes are to "toggle" the link so that you can select and deselect the #reader element easily.
 
